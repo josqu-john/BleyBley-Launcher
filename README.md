@@ -4,3 +4,5 @@ Version:  0.0
 Website :Josqu.de
 # Work in Progress
 Used Gems: https://github.com/fazibear/colorize
+
+The Finish of this little Project is to create a Small Ruby Launcher for Linux because the Native Launcher for Mount and Blade Warband can´t run on Linux. I try to add all funktion even the Native Launcher have. 
