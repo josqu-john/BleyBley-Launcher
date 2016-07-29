@@ -1,6 +1,6 @@
  require 'colorize'
 def layout_u
-puts "          Mount and Bley-bley Launcher by Joschi           ".red.on_blue.blink
+puts "          Mount and Bley-bley Launcher by Josqu           ".red.on_blue.blink
 puts "-----------------------------------------------------------".yellow
 end
 def modul
