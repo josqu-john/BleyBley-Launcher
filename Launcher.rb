@@ -18,10 +18,10 @@ system ('echo "Native" > ~/.mbwarband/last_module_warband')
 modul
 elsif $modul == "2"
 system ('echo "Viking Conquest" > ~/.mbwarband/last_module_warband')
-modul
+system ('steam steam://rungameid/48700')
 elsif $modul == "3"
 system ('echo "Napoleonic Wars" > ~/.mbwarband/last_module_warband')
-modul
+system ('steam steam://rungameid/48700')
 elsif $modul == "4"
 puts "Actually in Work in Progress!/In Arbeit"
 modul
