@@ -7,5 +7,5 @@ Website :Josqu.de
 
 Used Gems: https://github.com/fazibear/colorize
 
-The Finish of this little Project is to create a Small Alternative Ruby Launcher for Mount and Blade Warband
-because the Native Linux Launcher is extremly bugy on Linux.
+The finish of this little project is to create a small alternative Ruby Launcher for "Mount and Blade Warband"
+because the native Linux-Launcher is extremly bugy on Linux.
