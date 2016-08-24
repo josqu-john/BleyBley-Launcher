@@ -1,3 +1,4 @@
+#require_relative
 require 'colorize' 
 def layout_u #Banner 
 puts "          Mount and Bley-bley Launcher by Josqu            ".red.on_blue.blink
@@ -77,6 +78,7 @@ def menu
 puts "Modul aussuchen = 1                                        ".red
 puts "Cheats Aktivieren/Deaktivieren = 2                         ".red
 puts "Starten = 3                                                ".red
+puts "use strg+c to leave!                                       ".red
 puts "-----------------------------------------------------------".yellow
 print ":".green
 $menu_input = gets.chomp
