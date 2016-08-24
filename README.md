@@ -2,7 +2,7 @@
 work in progress!
 
 Small Ruby launcher for Mount and and Blade Warband 
-Version: ALPHA 0.5
+Version: ALPHA 0.6
 Website :Josqu.de
 
 Used Gems: https://github.com/fazibear/colorize
