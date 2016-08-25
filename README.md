@@ -13,7 +13,7 @@ because the native Linux-Launcher is extremly bugy on Linux.
 
 ## *How to install!*
 1. Download the BleyBley Launcher from josqu.de or Github.
-2 .unzip the zip.
+2  unzip the zip.
 3. start the install.sh script via Konsole.
 4. Finally start the start.sh.
 5. Now you your installer  
