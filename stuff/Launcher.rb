@@ -1,30 +1,30 @@
 #require_relative
-require 'colorize' 
-def layout_u #Banner 
+require 'colorize'
+def layout_u #Banner
 puts "          Mount and Bley-bley Launcher by Josqu            ".red.on_blue.blink
 puts "-----------------------------------------------------------".yellow
-end 
+end
 $modul_nummer = 0 # if 1 then Native. If 2 then Viking Conquest. if 3 then Napoleon Wars -module
 $cheat_of_on  = 0 # if true then cheats true
 def clear #clear the terminal and puts layout_u
-	system ('clear')  
+	system ('clear')
 	layout_u
 end
-def start_MB 
+def start_MB
 	clear
 	puts "!~Loading~!".green
-	case $modul_nummer 
+	case $modul_nummer
 	when 1
-		system ('echo "Native" > ~/.mbwarband/last_module_warband') #edit last_module_warband to native 
+		system ('echo "Native" > ~/.mbwarband/last_module_warband') #edit last_module_warband to native
     when 2
     	system ('echo "Viking Conquest" > ~/.mbwarband/last_module_warband')
     when 3
     	system ('echo "Napoleonic Wars" > ~/.mbwarband/last_module_warband')
-    when 0 
+    when 0
     	puts "?~Loading~?".green
     	system ('steam steam://rungameid/48700')
         menu
-    else 
+    else
     	puts "cant find module Error SMB2".green
     	menu
     end
@@ -66,7 +66,7 @@ def cheat
 	elsif $cheat_of_on == "2"
 		$cheat_status = "false"
 	system ('sed -i -e 29c"cheat_mode = 0" ~/.mbwarband/rgl_config.txt')
-	else 
+	else
 		puts "Error cheat status 1"
 		cheat
 	end
@@ -89,10 +89,10 @@ case $menu_input
 	when "2"
 		cheat
 		clear
-	when "3" 
+	when "3"
 		start_MB
 		clear
-	else 
+	else
 		puts "Error M1s"
 		menu
 	end
