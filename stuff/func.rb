@@ -1,34 +1,34 @@
 #all function/classes are stored
 
 #functions
-def start_game
+def start_game #start the game over steam (could take a few of time)
   system ('steam steam://rungameid/48700')
 end
-def clear_Layout
+def clear_Layout # clear the Console
   system ('clear')
 end
 
 #classes
-class Module
+class Module # class for Modules primaly use for switching the modules
 
-def switch_Native
-  system ('echo "Native" > ~/.mbwarband/last_module_warband') #edit last_module_warband to native
+def switch_Native #edit last_module_warband to native
+  system ('echo "Native" > ~/.mbwarband/last_module_warband')
 end
-def switch_Viking
+def switch_Viking #edit last_module_warband to Viking Conquest
   system ('echo "Viking Conquest" > ~/.mbwarband/last_module_warband')
 end
-def switch_Napoleon
+def switch_Napoleon # edit last last_module_warband to Napoleonic Wars
   system ('echo "Napoleonic Wars" > ~/.mbwarband/last_module_warband')
 end
 
 end
 
-class Cheat
+class Cheat # class for cheats primaly use for turn cheats on/of.
 
-  def turn_on
+  def turn_on # turn cheats on
     system ('sed -i -e 29c"cheat_mode = 1" ~/.mbwarband/rgl_config.txt')
   end
-  def turn_off
+  def turn_off # turn cheats off
     system ('sed -i -e 29c"cheat_mode = 0" ~/.mbwarband/rgl_config.txt')
   end
 
