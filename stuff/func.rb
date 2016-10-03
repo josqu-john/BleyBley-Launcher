@@ -23,7 +23,7 @@ end
 
 end
 
-class Cheat # class for cheats primaly use for turn cheats on/of.
+class Cheat # class for cheats primaly use for turn cheats on/off.
 
   def turn_on # turn cheats on
     system ('sed -i -e 29c"cheat_mode = 1" ~/.mbwarband/rgl_config.txt')
