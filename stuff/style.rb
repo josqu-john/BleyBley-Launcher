@@ -29,3 +29,48 @@ def menu_modul
 end
 
 end
+
+class Style4func
+  def menu_basic
+    input = gets.chomp
+
+    case input
+    when "1"
+      Layout.menu_modul
+    when "2"
+      Layout.menu_cheat
+    when "3"
+      start_game
+    end
+
+  end
+
+  def menu_cheat
+    input = gets.chomp
+
+    case input
+    when "1"
+      Cheat.turn_on
+    when "2"
+      Cheat.turn_off
+    end
+
+  end
+
+ def menu_modul
+  input = gets.chomp
+
+  case input
+  when "1"
+    Module.switch_Native
+  when "2"
+    Module.switch_Viking
+  when "3"
+    Module.switch_Napoleon
+  when "4"
+    puts "In work "
+    Layout.menu_modul
+  end
+
+ end
+end
