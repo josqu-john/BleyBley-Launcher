@@ -1,7 +1,7 @@
 # _BleyBley-Launcher_
 
 ## *About* 
-###First Rub Project so extrem bad written
+*First Ruby Project so extrem bad written.*
 
 Small Ruby launcher for Mount and and Blade Warband 
 Version: ALPHA 0.6
