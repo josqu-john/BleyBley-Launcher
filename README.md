@@ -1,13 +1,14 @@
-# _BleyBley-Launcher_
+# _BleyBley-Launcher[DEAD]_
 
 ## *About* 
+*kinda dead
 *First Ruby Project so extrem bad written.*
 
 Small Ruby launcher for Mount and and Blade Warband 
 Version: ALPHA 0.6
 Website :Josqu.de
 
-Work only on Debian but you can compile it yourself for Suse or other!
+Work only on Debian but you can write it yourself for Suse or other!
 
 The finish of this little project is to create a small alternative Ruby Launcher for "Mount and Blade Warband"
 because the native Linux-Launcher is extremly bugy on Linux.
