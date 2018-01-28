@@ -1,7 +1,7 @@
 # _BleyBley-Launcher[DEAD]_
 
 ## *About* 
-*kinda dead
+*kinda dead.*
 *First Ruby Project so extrem bad written.*
 
 Small Ruby launcher for Mount and and Blade Warband 
