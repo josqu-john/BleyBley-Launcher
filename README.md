@@ -1,3 +1,9 @@
+# WARNING
+
+### NO LONGER MAINTAINED
+
+This project is no longer being maintained or updated in any way.
+
 # _BleyBley-Launcher[DEAD]_
 
 ## *About* 
