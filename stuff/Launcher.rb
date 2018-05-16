@@ -1,3 +1,4 @@
+#!/bin/ruby
 #require_relative
 require 'colorize'
 def layout_u #Banner
