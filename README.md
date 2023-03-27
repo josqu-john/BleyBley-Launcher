@@ -1,5 +1,4 @@
-# WARNING
-
+This was my one of my first real Projects. A replacement for the DLC/Mod-Launcher for Mount and Blade Warband. The Original Laucher would not work under Linux so I made my own. (it actually just changes one Line of Code if I remember correctly) Its here mostly for nostalgic Reasons 
 ### NO LONGER MAINTAINED
 
 This project is no longer being maintained or updated in any way.
@@ -8,7 +7,8 @@ This project is no longer being maintained or updated in any way.
 
 ## *About* 
 *kinda dead.*
-*First Ruby Project so extrem bad written.*
+*First Ruby Project so extremmly bad written.*
+
 
 Small Ruby launcher for Mount and and Blade Warband 
 Version: ALPHA 0.6
